@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdio>
 
 /**
  * main - Entry point
  *
- * Description : C programe that prints using printf function
+ * Description : C programe that prints using put function
  *
  * Return: return always 0 (success)
  *

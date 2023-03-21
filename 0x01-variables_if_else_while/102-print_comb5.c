@@ -32,9 +32,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			second;
+			second++;
 		}
-		first;
+		first++;
 	}
 	putchar('\n');
 	return (0);

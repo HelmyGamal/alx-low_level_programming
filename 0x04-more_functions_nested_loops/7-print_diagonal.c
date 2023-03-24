@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_diagonal -  Description : C programe checks nums
+ * print_diagonal -  Description : C programe print digonali
  *
  * @n : input of the function
  *

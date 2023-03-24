@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * _sqrt - finds the square root
  *
  * @x: input
@@ -20,7 +19,7 @@ double _sqrt(double x)
 	while (sqrt != tmp)
 	{
 		tmp = sqrt;
-		sqrt = (x / tmp + tmp)/ 2;
+		sqrt = (x / tmp + tmp) / 2;
 	}
 	return (sqrt);
 }
@@ -37,11 +36,11 @@ void largest_prime_factor(long int num)
 
 	while (num % 2 == 0)
 		num = num / 2;
-	for (prmnu = 3; prmnu <= _sqrt(num); prmnu +=2)
+	for (prmnu = 3; prmnu <= _sqrt(num); prmnu += 2)
 	{
 		while (num % prmnu == 0)
 		{
-			num = num / prmnu
+			num = num / prmnu;
 			largest = prmnu;
 		}
 	}
@@ -50,11 +49,10 @@ void largest_prime_factor(long int num)
 	printf("%d\n", largest);
 }
 
-/*
- * main - entry point
+/**
+ * main- entry point
  *
  * Return: always 0 (success)
- *
 */
 
 int main(void)
